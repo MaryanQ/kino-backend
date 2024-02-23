@@ -4,10 +4,12 @@ import dat3.security.dto.LoginRequest;
 import dat3.security.dto.LoginResponse;
 import dat3.security.entity.UserWithRoles;
 import dat3.security.service.UserDetailsServiceImp;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -48,10 +50,12 @@ public class AuthenticationController {
   }
 
   @PostMapping("login")
+  @Operation(summary = "Login", description = "Use this to login and get a token")
   public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest request) {
 
     try {
       UsernamePasswordAuthenticationToken uat = new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword());
+      //The authenticate method will use the loadUserByUsername method in UserDetailsServiceImp
       Authentication authentication = authenticationManager.authenticate(uat);
 
       UserWithRoles user = (UserWithRoles) authentication.getPrincipal();
@@ -74,7 +78,8 @@ public class AuthenticationController {
       return ResponseEntity.ok()
               .body(new LoginResponse(user.getUsername(), token, roles));
 
-    } catch (BadCredentialsException e) {
+    } catch (BadCredentialsException | AuthenticationServiceException e) {
+      // AuthenticationServiceException is thrown if the user is not found
       throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, UserDetailsServiceImp.WRONG_USERNAME_OR_PASSWORD);
     }
   }
