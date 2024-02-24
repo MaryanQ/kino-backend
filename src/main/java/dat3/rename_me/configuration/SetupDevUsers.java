@@ -23,6 +23,7 @@ public class SetupDevUsers implements ApplicationRunner {
         this.userWithRolesRepository = userWithRolesRepository;
         this.roleRepository = roleRepository;
         this.pwEncoder = passwordEncoder;
+
         passwordUsedByAll = "test12";
     }
 
