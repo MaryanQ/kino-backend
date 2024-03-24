@@ -1,54 +1,49 @@
+INSERT INTO moviedto (title, year, genre, director, plot, poster_url)
+VALUES
+    ('Interstellar', '2014', 'Adventure, Drama, Sci-Fi', 'Christopher Nolan', 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.', 'https://musicart.xboxlive.com/7/912b1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080'),
+('Dune', '2021', 'Adventure, Drama, Sci-Fi', 'Denis Villeneuve', 'Feature adaptation of Frank Herbert\'s science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.', 'https://img-cdn.sfanytime.com/COVERM/COVERM_9b838abd-3933-48f6-b6ea-e522d1027711_01.jpg?w=375&ar=0.692&fit=crop&fm=pjpg&s=6f386a4c8c3232d89538b8b6a7a94bcb'),
+('The Matrix Resurrections', '2021', 'Action, Sci-Fi', 'Lana Wachowski', 'Return to a world of two realities: one, everyday life; the other, what lies behind it.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/476/992/1640175428-24db85e5ab11c17264c37e121d031a6a7e759985.jpg?width=400&height=600'),
+('Spider-Man: No Way Home', '2021', 'Action, Adventure, Fantasy', 'Jon Watts', 'With Spider-Man\'s identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/876/528/1646293394-34d6ddb281507dc875eb389df06bbcd450544e07.jpg?width=400&height=600'),
+('Black Panther: Wakanda Forever', '2022', 'Action, Adventure, Drama', 'Ryan Coogler', 'The film will explore the world of the African kingdom of Wakanda and its people.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/518/448/1673944408-30d01d596705c26b91a886ed6789150ddcf33364.jpg?width=400&height=600'),
+('Avatar 2', '2022', 'Action, Adventure, Fantasy', 'James Cameron', 'A sequel to Avatar (2009).', 'https://filmhylden.dk/images/zoom/avatar2thewayofwaterdvd.jpg'),
+('Jurassic World: Dominion', '2022', 'Action, Adventure, Sci-Fi', 'Colin Trevorrow', 'Plot unknown.', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGY7DYxqQg150CRyWYp65jXaIUMYs5M5iGUj7W04_vA&s'),
+('The Batman', '2022', 'Action, Crime, Drama', 'Matt Reeves', 'The Riddler plays a deadly game of cat and mouse with Batman and Commissioner Gordon in Gotham City.', 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/The_Batman_%28film%29_poster.jpg/220px-The_Batman_%28film%29_poster.jpg'),
+('Doctor Strange in the Multiverse of Madness', '2022', 'Action, Adventure, Fantasy', 'Sam Raimi', 'Plot unknown.', 'https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg'),
+('Sonic the Hedgehog 2', '2022', 'Action, Adventure, Comedy', 'Jeff Fowler', 'Sequel to the 2020 live-action feature film \'Sonic the Hedgehog\'.', 'https://www.flixfilm.dk/wp-content/uploads/2023/09/AAAABWC96nwER3lrbuyNJsbtmKihwWPOuvzYhbE-sfSw0nPZA1rxiIkMhCMGGXRNLxNXRqv9LJGQqsYcIrwiYjlB85Nwzq9RK1OnigY.jpg'),
+('Thor: Love and Thunder', '2022', 'Action, Adventure, Fantasy', 'Taika Waititi', 'The sequel to Thor: Ragnarok and the fourth movie in the Thor saga.', 'https://imusic.b-cdn.net/images/item/original/876/8717418610876.jpg?thor-love-thunder-2022-thor-love-and-thunder-dvd&class=scaled&v=1691755675'),
+('Top Gun: Maverick', '2022', 'Action, Drama', 'Joseph Kosinski', 'The plot is unknown at this time.', 'https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg'),
+('Indiana Jones 5', '2023', 'Action, Adventure', 'James Mangold', 'The plot is unknown at this time.', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOnvakCMlTQJl2HbbVyCJSMz9_B2t7-ucuHmGUdPcsmQ&s');
 
--- Inserting data for movie "Soul"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Soul', '2020', 'PG', '25 Dec 2020', '100 min', 'Animation, Adventure, Comedy', 'Pete Docter, Kemp Powers(co-director)', 'Pete Docter (story and screenplay by), Mike Jones (story and screenplay by), Kemp Powers (story and screenplay by)', 'Jamie Foxx, Tina Fey, Graham Norton', 'A musician who has lost his passion for music is transported out of his body and must find his way back with the help of an infant soul learning about herself.', 'English', 'United States', 'Won 2 Oscars. 52 wins & 102 nominations total', 'https://m.media-amazon.com/images/M/MV5BMTc5MDYwMTg5Nl5BMl5BanBnXkFtZTgwMzI3NzU0OTE@._V1_SX300.jpg', '83', '8.1', '223,279', 'tt2948372', 'movie', '25 Dec 2020', 'N/A', 'Walt Disney Pictures, Pixar Animation Studios', 'N/A', 'True');
+INSERT INTO movie_screeningdto (movie_title, start_time, end_time, ticket_price, available_seats, booked_seats, language)
+VALUES
+    ('Interstellar', '2024-03-25 13:00:00', '2024-03-25 15:30:00', 120.0, 200, 0, 'English'),
+    ('Dune', '2024-03-25 16:00:00', '2024-03-25 18:30:00', 130.0, 200, 0, 'English'),
+    ('The Matrix Resurrections', '2024-03-25 19:00:00', '2024-03-25 21:30:00', 140.0, 200, 0, 'English'),
+    ('Spider-Man: No Way Home', '2024-03-26 13:00:00', '2024-03-26 15:30:00', 150.0, 300, 0, 'English'),
+    ('Black Panther: Wakanda Forever', '2024-03-26 16:00:00', '2024-03-26 18:30:00', 160.0, 300, 0, 'English'),
+    ('Avatar 2', '2024-03-27 13:00:00', '2024-03-27 15:30:00', 100.0, 400, 0, 'English'),
+    ('Jurassic World: Dominion', '2024-03-27 16:00:00', '2024-03-27 18:30:00', 120.0, 200, 0, 'English'),
+    ('The Batman', '2024-03-27 19:00:00', '2024-03-27 21:30:00', 130.0, 200, 0, 'English'),
+    ('Doctor Strange in the Multiverse of Madness', '2024-03-28 13:00:00', '2024-03-28 15:30:00', 110.0, 400, 0, 'English'),
+    ('Sonic the Hedgehog 2', '2024-03-28 16:00:00', '2024-03-28 18:30:00', 90.0, 300, 0, 'English'),
+    ('Thor: Love and Thunder', '2024-03-28 19:00:00', '2024-03-28 21:30:00', 140.0, 200, 0, 'English'),
+    ('Top Gun: Maverick', '2024-03-29 13:00:00', '2024-03-29 15:30:00', 130.0, 300, 0, 'English'),
+    ('Indiana Jones 5', '2024-03-29 16:00:00', '2024-03-29 18:30:00', 120.0, 200, 0, 'English');
 
--- Inserting data for movie "Parasite"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Parasite', '2019', 'R', '07 Feb 2020', '132 min', 'Comedy, Drama, Thriller', 'Bong Joon Ho', 'Bong Joon Ho (story), Bong Joon Ho (screenplay), Jin Won Han (screenplay)', 'Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo', 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.', 'Korean, English', 'South Korea', 'Won 4 Oscars. 291 wins & 240 nominations total', 'https://m.media-amazon.com/images/M/MV5BYzg5YmI4ZDYtMjI3MS00ZGQ0LTkyNDktNTYyMDY1NGM1YmFmXkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_SX300.jpg', '96', '8.6', '635,934', 'tt6751668', 'movie', '28 Jan 2020', '$53,369,749', 'Barunson E&A, CJ Entertainment, TMS Comics', 'N/A', 'True');
-
--- Inserting data for movie "The Godfather"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('The Godfather', '1972', 'R', '24 Mar 1972', '175 min', 'Crime, Drama', 'Francis Ford Coppola', 'Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by), Mario Puzo (based on the novel by)', 'Marlon Brando, Al Pacino, James Caan', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', 'English, Italian, Latin', 'United States', 'Won 3 Oscars. 32 wins & 30 nominations total', 'https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg', '100', '9.2', '1,681,722', 'tt0068646', 'movie', '09 Oct 2001', 'N/A', 'Paramount Pictures', 'N/A', 'True');
-
--- Inserting data for movie "Pulp Fiction"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Pulp Fiction', '1994', 'R', '14 Oct 1994', '154 min', 'Crime, Drama', 'Quentin Tarantino', 'Quentin Tarantino (stories), Roger Avary (stories)', 'John Travolta, Uma Thurman, Samuel L. Jackson', 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.', 'English, Spanish, French', 'United States', 'Won 1 Oscar. 68 wins & 75 nominations total', 'https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg', '94', '8.9', '1,919,044', 'tt0110912', 'movie', '19 May 1998', 'N/A', 'Miramax Films', 'N/A', 'True');
-
--- Inserting data for movie "Fight Club"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Fight Club', '1999', 'R', '15 Oct 1999', '139 min', 'Drama', 'David Fincher', 'Chuck Palahniuk (novel), Jim Uhls (screenplay)', 'Edward Norton, Brad Pitt, Meat Loaf', 'An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.', 'English', 'United States, Germany', 'Nominated for 1 Oscar. 10 wins & 41 nominations total', 'https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZDAtZTgwZjA2YWIwOWY3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg', '66', '8.8', '1,916,792', 'tt0137523', 'movie', '03 Jan 2002', 'N/A', 'Fox 2000 Pictures, Regency Enterprises, Linson Films', 'N/A', 'True');
-
--- Inserting data for movie "Tenet"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Tenet', '2020', 'PG-13', '03 Sep 2020', '150 min', 'Action, Sci-Fi, Thriller', 'Christopher Nolan', 'Christopher Nolan', 'John David Washington, Robert Pattinson, Elizabeth Debicki', 'Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.', 'English, Russian, Ukrainian, Estonian', 'UK, USA', 'Nominated for 2 Oscars. 47 wins & 147 nominations total', 'https://m.media-amazon.com/images/M/MV5BYWZlMjVkNzktODg3Yy00NjIwLWIxNjctMmU3MzRmMzcwOTU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg', '69', '7.5', '382,118', 'tt6723592', 'movie', '15 Dec 2020', '$58,500,000', 'Syncopy, Warner Bros. Pictures', 'N/A', 'True');
-
--- Inserting data for movie "Dune"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Dune', '2021', 'PG-13', '22 Oct 2021', '155 min', 'Action, Adventure, Drama', 'Denis Villeneuve', 'Jon Spaihts (screenplay by), Denis Villeneuve (screenplay by), Eric Roth (screenplay by), Frank Herbert (based on the novel by)', 'Timothée Chalamet, Rebecca Ferguson, Zendaya', 'Feature adaptation of Frank Herbert\'s science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.', 'English', 'USA, Canada, Hungary, Jordan, Norway, UK', 'Won 1 Oscar. 29 wins & 124 nominations total', 'https://m.media-amazon.com/images/M/MV5BNDZkNzEzZjktNDg1OC00ZjViLWI5MjktOWUxMzBmMzg0MmE1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg', '75', '8.3', '320,252', 'tt1160419', 'movie', '12 Oct 2021', '$100,346,079', 'Warner Bros., Legendary Entertainment, Villeneuve Films', 'N/A', 'True');
-
-
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Spider-Man: No Way Home', '2021', 'PG-13', '17 Dec 2021', '148 min', 'Action, Adventure, Fantasy', 'Jon Watts', 'Chris McKenna, Erik Sommers', 'Tom Holland, Zendaya, Benedict Cumberbatch', 'With Spider-Man\'s identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.', 'English', 'USA', 'Nominated for 1 Oscar. 22 wins & 73 nominations total', 'https://m.media-amazon.com/images/M/MV5BMjE2Njk3OTcwM15BMl5BanBnXkFtZTgwMTY5NjU2MTIzNjheQXVyMTkxNjUyNQ@@._V1_SX300.jpg', '69', '8.5', '509,798', 'tt10872600', 'movie', '25 Jan 2022', '$807,642,531', 'Columbia Pictures, Marvel Studios, Pascal Pictures', 'N/A', 'True');
-
--- Inserting data for movie "Shang-Chi and the Legend of the Ten Rings"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Shang-Chi and the Legend of the Ten Rings', '2021', 'PG-13', '03 Sep 2021', '132 min', 'Action, Adventure, Fantasy', 'Destin Daniel Cretton', 'Dave Callaham, Destin Daniel Cretton, Andrew Lanham', 'Simu Liu, Awkwafina, Tony Chiu-Wai Leung', 'Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.', 'English, Mandarin', 'USA, Australia, Canada', 'Nominated for 1 Oscar. 13 wins & 47 nominations total', 'https://m.media-amazon.com/images/M/MV5BNmMyMmRjYzYtODIwMy00NTdiLWIzZjYtYmE5YTQ1MDA3MjMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg', '71', '7.5', '309,546', 'tt9376612', 'movie', '12 Oct 2021', '$224,965,074', 'Walt Disney Pictures, Marvel Studios', 'https://www.marvel.com/movies/shang-chi-and-the-legend-of-the-ten-rings', 'True');
-
--- Inserting data for movie "Black Widow"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Black Widow', '2021', 'PG-13', '09 Jul 2021', '134 min', 'Action, Adventure, Sci-Fi', 'Cate Shortland', 'Eric Pearson, Jac Schaeffer, Ned Benson', 'Scarlett Johansson, Florence Pugh, David Harbour', 'Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.', 'English, Russian, Norwegian', 'USA', '7 wins & 38 nominations total', 'https://m.media-amazon.com/images/M/MV5BYzQxZmVkODgtZDU5OS00ZTgyLWFmMzAtMzE5NTA0YWFkYzdiXkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SX300.jpg', '67', '6.7', '309,946', 'tt3480822', 'movie', '14 Sep 2021', '$183,631,015', 'Marvel Studios', 'https://www.marvel.com/movies/black-widow', 'True');
-
--- Inserting data for movie "Nomadland"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Nomadland', '2020', 'R', '19 Feb 2021', '107 min', 'Drama', 'Chloé Zhao', 'Jessica Bruder (based on the book by), Chloé Zhao (written for the screen by)', 'Frances McDormand, David Strathairn, Linda May', 'After losing everything in the Great Recession, a woman embarks on a journey through the American West, living as a van-dwelling modern-day nomad.', 'English', 'USA, Germany', 'Won 3 Oscars. 242 wins & 228 nominations total', 'https://m.media-amazon.com/images/M/MV5BNjViZjcwM2UtMzdhZS00OGZjLTllODUtNzIxYmQ0MzZlMTBmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg', '93', '7.4', '168,756', 'tt9770150', 'movie', '27 Apr 2021', '$2,099,958', 'Cor Cordium Productions, Hear/Say Productions, Highwayman Films', 'https://www.searchlightpictures.com/nomadland/', 'True');
-
--- Inserting data for movie "Joker"
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('Joker', '2019', 'R', '04 Oct 2019', '122 min', 'Crime, Drama, Thriller', 'Todd Phillips', 'Todd Phillips, Scott Silver', 'Joaquin Phoenix, Robert De Niro, Zazie Beetz', 'In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.', 'English', 'USA, Canada', 'Won 2 Oscars. 133 wins & 218 nominations total', 'https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtZjdlOC00ZjUzLTg2YzktNTA0NzJkM2JiNjYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg', '59', '8.4', '1,026,057', 'tt7286456', 'movie', '17 Dec 2019', '$335,451,311', 'Warner Bros. Pictures, DC Comics, Joint Effort', 'https://www.joker.movie/', 'True');
+    INSERT INTO halldto (name, capacity)
+VALUES
+    ('Hall 1', '400'),
+    ('Hall 2', '250');
 
 
+INSERT INTO seatdto (type, capacity, price, movie_screeningdto_id)
+VALUES ('Regular', 150, 120.00, NULL),
+       ('Cowboy', 50, 160.00, NULL),
+       ('Sofa', 30, 200.00, NULL);
 
+INSERT INTO bookingdto (customer_name, seat_id, movie_id, price, booking_time)
+VALUES
+('John Doe', 1, 1, 150.00, '2024-03-24T10:00:00'),
+('Jane Smith', 2, 2, 200.00, '2024-03-25T14:30:00'),
+('Alice Johnson', 3, 1, 180.00, '2024-03-26T18:00:00');
 
-INSERT INTO moviedto (title, year, rated, released, runtime, genre, director, writer, actors, plot, language, country, awards, poster, metascore, imdb_rating, imdb_votes, imdbid, type, dvd, box_office, production, website, response)
-VALUES ('No Time to Die', '2021', 'PG-13', '08 Oct 2021', '163 min', 'Action, Adventure, Thriller', 'Cary Joji Fukunaga', 'Neal Purvis, Robert Wade, Cary Joji Fukunaga, Phoebe Waller-Bridge', 'Daniel Craig, Ana de Armas, Rami Malek', 'James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.', 'English, Japanese, Italian, Norwegian', 'UK, USA', 'Won 1 Oscar. 17 wins & 75 nominations total', 'https://m.media-amazon.com/images/M/MV5BNGEwM2Q2ZjQtMTEzYS00ZjUwLWIyMmMtZmYyYmE2NDAwMzRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg', '68', '7.4', '241,324', 'tt2382320', 'movie', '21 Dec 2021', '$774,142,741', 'Metro-Goldwyn-Mayer (MGM), Eon Productions, B24', 'https://www.007.com/', 'True');

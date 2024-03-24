@@ -3,8 +3,8 @@ package dat3.Kino.api;
 import dat3.Kino.dto.MovieDTO;
 
 import dat3.Kino.service.MovieService;
-import dat3.Kino.repository.MovieRespository;
-import org.apache.catalina.Session;
+import dat3.Kino.repository.MovieRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -20,11 +20,11 @@ import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 public class MovieController {
 
     private final MovieService movieService;
-    private final MovieRespository movieRepository;
+    private final MovieRepository movieRepository;
 
 
     @Autowired
-    public MovieController(MovieService movieService, MovieRespository movieRepository) {
+    public MovieController(MovieService movieService, MovieRepository movieRepository) {
         this.movieService = movieService;
         this.movieRepository = movieRepository;
     }
@@ -36,7 +36,7 @@ public class MovieController {
 
 
     @GetMapping("/{id}")
-    public ResponseEntity<MovieDTO> getMovieById(@PathVariable String id) {
+    public ResponseEntity<MovieDTO> getMovieById(@PathVariable int id) {
         Optional<MovieDTO> movie = movieService.getMovieById(id);
         if (movie.isPresent()) {
             return ResponseEntity.ok(movie.get());
@@ -52,9 +52,9 @@ public class MovieController {
         return ResponseEntity.status(HttpStatus.CREATED).body(createdMovie);
     }
 
-    @PutMapping("/{imdbID}")
-    public ResponseEntity<MovieDTO> updateMovie(@PathVariable String imdbID, @RequestBody MovieDTO movieDTO) {
-        MovieDTO updatedMovie = movieService.updateMovie(movieDTO, imdbID);
+    @PutMapping("/{id}")
+    public ResponseEntity<MovieDTO> updateMovie(@PathVariable int id, @RequestBody MovieDTO movieDTO) {
+        MovieDTO updatedMovie = movieService.updateMovie(movieDTO, id);
 
         if (updatedMovie != null) {
             return ResponseEntity.ok(updatedMovie);
@@ -63,9 +63,9 @@ public class MovieController {
         }
     }
 
-    @DeleteMapping("/{imdbID}")
-    public ResponseEntity<MovieDTO> deleteMovie(@PathVariable String imdbID) {
-        MovieDTO deletedMovie = movieService.deleteMovieByImdbID(imdbID);
+    @DeleteMapping("/{id}")
+    public ResponseEntity<MovieDTO> deleteMovie(@PathVariable int id) {
+        MovieDTO deletedMovie = movieService.deleteMovieById(id);
         if (deletedMovie != null) {
             return ResponseEntity.ok(deletedMovie);
         } else {
