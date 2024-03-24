@@ -111,4 +111,12 @@
         </plugins>
     </build>
 
+    <!-- Add the distributionManagement section here -->
+    <distributionManagement>
+        <repository>
+            <id>5e0d0a92-c7c8-410d-8935-52fa7b9e1ed8</id>
+            <url>https://github.com/MaryanQ/kino-backend.git</url>
+        </repository>
+    </distributionManagement>
+
 </project>

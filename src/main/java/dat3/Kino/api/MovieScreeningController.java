@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/movie-screenings")
+@RequestMapping("/movie_screenings")
 public class MovieScreeningController {
 
     @Autowired
