@@ -1,0 +1,42 @@
+# Ignore generated files and directories
+HELP.md
+target/
+build/
+
+# Allow Maven wrapper and target directories inside src/main and src/test
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite) IDE
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA IDE
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans IDE
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code IDE
+.vscode/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml

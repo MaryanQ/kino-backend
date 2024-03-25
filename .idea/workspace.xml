@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9a38829-f7a3-4451-889b-f79582483d5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/kino.nzsyAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/api/CinemaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/dto/CinemaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/repository/CinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/service/CinemaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/BookingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/HallController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/MovieScreeningController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/SeatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/configuration/SetupDevUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/BiografDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/BookingDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/HallDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/MovieDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/MovieScreeningDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/SeatDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/BookingRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/HallRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/MovieRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/MovieScreeningRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/SeatRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/BookingNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/BookingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/HallService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/MovieNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/MovieScreeningService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/MovieService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/SeatNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/SeatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/api/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/api/UserWithRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/UserWithRolesRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/UserWithRolesResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/entity/UserWithRoles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/error/CustomOAuth2AccessDeniedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/error/CustomOAuth2AuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/for_security_tests/ControllerToTestRoles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/for_security_tests/TestResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/repository/UserWithRolesRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/service/UserDetailsServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/service/UserWithRolesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dat3.Kino-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dat3.Kino-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dat3.renameme-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dat3.renameme-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/TestUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/api/AuthenticationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/api/AuthorizationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/api/UserWithRoleControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/service/UserWithRolesServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dat3/Kino/dto/BiografDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dat3/security/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dat3/security/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2e46UahzWi5Fo6BldM7E7O5F2Fs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.dat3.renameme [clean].executor": "Run",
+    "Maven.dat3.renameme [compile].executor": "Run",
+    "Maven.dat3.renameme [deploy].executor": "Run",
+    "Maven.dat3.renameme [install].executor": "Run",
+    "Maven.dat3.renameme [package].executor": "Run",
+    "Maven.dat3.renameme [site].executor": "Run",
+    "Maven.dat3.renameme [test].executor": "Run",
+    "Maven.dat3.renameme [validate].executor": "Run",
+    "Maven.dat3.renameme [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dat3.Kino.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Kino-ANM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Kino-ANM" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="dat3.renameme" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dat3.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9a38829-f7a3-4451-889b-f79582483d5c" name="Changes" comment="" />
+      <created>1711151521077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711151521077</updated>
+      <workItem from="1711151522266" duration="894000" />
+      <workItem from="1711236356865" duration="13716000" />
+      <workItem from="1711295659949" duration="12463000" />
+      <workItem from="1711321794993" duration="5469000" />
+      <workItem from="1711327810970" duration="610000" />
+      <workItem from="1711364180602" duration="604000" />
+      <workItem from="1711368019879" duration="1746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

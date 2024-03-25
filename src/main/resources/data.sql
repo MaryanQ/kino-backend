@@ -1,9 +1,7 @@
-INSERT INTO moviedto (title, year, genre, director, plot, poster_url)
-VALUES
-    ('Interstellar', '2014', 'Adventure, Drama, Sci-Fi', 'Christopher Nolan', 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.', 'https://musicart.xboxlive.com/7/912b1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080'),
+INSERT INTO moviedto (title, year, genre, director, plot, poster_url) VALUES ('Interstellar', '2014', 'Adventure, Drama, Sci-Fi', 'Christopher Nolan', 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.', 'https://musicart.xboxlive.com/7/912b1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080'),
 ('Dune', '2021', 'Adventure, Drama, Sci-Fi', 'Denis Villeneuve', 'Feature adaptation of Frank Herbert\'s science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.', 'https://img-cdn.sfanytime.com/COVERM/COVERM_9b838abd-3933-48f6-b6ea-e522d1027711_01.jpg?w=375&ar=0.692&fit=crop&fm=pjpg&s=6f386a4c8c3232d89538b8b6a7a94bcb'),
-('The Matrix Resurrections', '2021', 'Action, Sci-Fi', 'Lana Wachowski', 'Return to a world of two realities: one, everyday life; the other, what lies behind it.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/476/992/1640175428-24db85e5ab11c17264c37e121d031a6a7e759985.jpg?width=400&height=600'),
-('Spider-Man: No Way Home', '2021', 'Action, Adventure, Fantasy', 'Jon Watts', 'With Spider-Man\'s identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/876/528/1646293394-34d6ddb281507dc875eb389df06bbcd450544e07.jpg?width=400&height=600'),
+                                                                             ('The Matrix Resurrections', '2021', 'Action, Sci-Fi', 'Lana Wachowski', 'Return to a world of two realities: one, everyday life; the other, what lies behind it.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/476/992/1640175428-24db85e5ab11c17264c37e121d031a6a7e759985.jpg?width=400&height=600'),
+                                                                             ('Spider-Man: No Way Home', '2021', 'Action, Adventure, Fantasy', 'Jon Watts', 'With Spider-Man\'s identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/876/528/1646293394-34d6ddb281507dc875eb389df06bbcd450544e07.jpg?width=400&height=600'),
 ('Black Panther: Wakanda Forever', '2022', 'Action, Adventure, Drama', 'Ryan Coogler', 'The film will explore the world of the African kingdom of Wakanda and its people.', 'https://i-viaplay-com.akamaized.net/viaplay-prod/518/448/1673944408-30d01d596705c26b91a886ed6789150ddcf33364.jpg?width=400&height=600'),
 ('Avatar 2', '2022', 'Action, Adventure, Fantasy', 'James Cameron', 'A sequel to Avatar (2009).', 'https://filmhylden.dk/images/zoom/avatar2thewayofwaterdvd.jpg'),
 ('Jurassic World: Dominion', '2022', 'Action, Adventure, Sci-Fi', 'Colin Trevorrow', 'Plot unknown.', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGY7DYxqQg150CRyWYp65jXaIUMYs5M5iGUj7W04_vA&s'),
@@ -47,3 +45,7 @@ VALUES
 ('Jane Smith', 2, 2, 200.00, '2024-03-25T14:30:00'),
 ('Alice Johnson', 3, 1, 180.00, '2024-03-26T18:00:00');
 
+INSERT INTO cinemadto (name, address, contact_information, number_of_halls)
+VALUES
+  ('Sunset Cinemas', '123 Main Street, Anytown', 'info@sunsetcinemas.com, (123) 456-7890', 1),
+  ('Starlight Theater', '456 Elm Avenue, Gotham City', 'starlighttheater@gmail.com, (555) 123-4567', 1);
