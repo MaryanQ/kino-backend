@@ -5,95 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9a38829-f7a3-4451-889b-f79582483d5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/kino.nzsyAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dbc9f52e-d51f-46ed-88bb-f4e2c3f9bb6b/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/api/CinemaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/dto/CinemaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dat3/Kino/service/CinemaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/BookingController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/HallController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/MovieController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/MovieScreeningController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/api/SeatController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/configuration/SetupDevUsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/BiografDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/BookingDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/HallDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/MovieDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/MovieScreeningDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/dto/SeatDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/BookingRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/HallRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/MovieRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/MovieScreeningRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/repository/SeatRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/BookingNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/BookingService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/HallService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/MovieNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/MovieScreeningService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/MovieService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/SeatNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/Kino/service/SeatService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/api/AuthenticationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/api/UserWithRoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/config/CorsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/LoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/LoginResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/UserWithRolesRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/dto/UserWithRolesResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/entity/UserWithRoles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/error/CustomOAuth2AccessDeniedHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/error/CustomOAuth2AuthenticationEntryPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/for_security_tests/ControllerToTestRoles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/for_security_tests/TestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/repository/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/repository/UserWithRolesRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/service/UserDetailsServiceImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dat3/security/service/UserWithRolesService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/dat3.Kino-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/dat3.Kino-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/dat3.renameme-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/dat3.renameme-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/ApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/TestUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/api/AuthenticationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/api/AuthorizationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/api/UserWithRoleControllerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dat3/security/service/UserWithRolesServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dat3/Kino/dto/BiografDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dat3/security/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dat3/security/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dat3/security/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dat3/security/config/CorsConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +126,7 @@
       <workItem from="1711321794993" duration="5469000" />
       <workItem from="1711327810970" duration="610000" />
       <workItem from="1711364180602" duration="604000" />
-      <workItem from="1711368019879" duration="1746000" />
+      <workItem from="1711368019879" duration="3787000" />
     </task>
     <servers />
   </component>
